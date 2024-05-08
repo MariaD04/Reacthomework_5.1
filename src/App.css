@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  width: 18rem;
+  margin: 35px;
+  border: 1px solid #000;
+  border-radius: 3%;
+}
+
+.card-body {
+  display: block;
+  width: 246px;
+  height: 161px;
+  padding: 20px;
+}
+
+.card-title {
+  width: 246px;
+  height: 24px;
+  font-size: 20px;
+  margin-bottom: 12px;
+  margin-top: 0px;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+.btn {
+  width: 105px;
+  height: 24px;
+  padding: 6px 12px;
+  background-color: #0F7FFA;
+  color: white;
+  border: 0.8px solid;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #1463b7;
+  color: white;
+}
